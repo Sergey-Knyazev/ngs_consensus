@@ -7,5 +7,5 @@ The threshold can be 5%, 10%, 20%, or any other number.
 
 To run miseq_consensus.ipynb, modify config file *miseq_consensus.config.yaml* and execute the following command from terminal:
 ```
-jupyter nbconvert --to notebook --execute miseq_consensus.ipynb
+jupyter nbconvert --to notebook --ExecutePreprocessor.timeout=-1 --execute miseq_consensus.ipynb
 ```
