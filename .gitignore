@@ -2,3 +2,4 @@ raw_reads
 out_dir
 ref
 .ipynb_checkpoints
+miseq_consensus.py
