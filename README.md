@@ -5,7 +5,8 @@ The threshold can be 5%, 10%, 20%, or any other number.
 ## running
 **miseq_consensus.ipynb** takes raw reads as an input and generates four consensus sequences: one with ambuiguities resolved, and three with ambiguities with frequency above thresholds of 5%, 10%, and 20%.
 
-To run miseq_consensus.ipynb, modify config file *miseq_consensus.config.yaml* and execute the following command from terminal:
+To run miseq_consensus.ipynb, modify config file *miseq_consensus.config.yaml*, convert notebook to a python script and execute the python script:
 ```
-jupyter nbconvert --to notebook --ExecutePreprocessor.timeout=-1 --execute miseq_consensus.ipynb
+jupyter nbconvert --to python miseq_consensus.ipynb
+python miseq_consensus.py
 ```
