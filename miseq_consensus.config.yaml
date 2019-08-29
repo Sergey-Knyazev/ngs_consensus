@@ -1,5 +1,4 @@
 fastq_dir: raw_reads
 is_pair_ended: True
 ref: ref/ref.fas
-working_dir: .
 out_dir: out_dir
