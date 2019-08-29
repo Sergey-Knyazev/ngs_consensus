@@ -8,5 +8,5 @@ The threshold can be 5%, 10%, 20%, or any other number.
 To run miseq_consensus.ipynb, modify config file *miseq_consensus.config.yaml*, convert notebook to a python script and execute the python script:
 ```
 jupyter nbconvert --to python miseq_consensus.ipynb
-python miseq_consensus.py
+ipython miseq_consensus.py
 ```
